@@ -17,3 +17,4 @@ sudo fwupdmgr refresh
 sudo fwupdmgr get-updates
 sudo fwupdmgr update
 tldr --update
+tail -n 10  /var/log/ufw.log
