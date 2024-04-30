@@ -9,7 +9,7 @@ sudo apt-get -y autoremove
 sudo apt-get -y autoclean
 sudo snap refresh
 sudo do-release-upgrade
-sudo do-release-upgrade -d 
+#sudo do-release-upgrade -d 
 rustup self update
 rustup update
 sudo dmidecode -s bios-version
