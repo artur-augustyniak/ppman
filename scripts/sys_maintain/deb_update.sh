@@ -3,7 +3,7 @@
 # export DEBIAN_FRONTEND=noninteractive
 sudo apt-get -y update
 sudo aptitude -y safe-upgrade
-sudo apt-get --with-new-pkgs -y upgrade
+sudo apt-get --with-new-pkgs -y upgrade -o APT::Get::Always-Include-Phased-Updates=true
 sudo apt-get -y dist-upgrade
 sudo apt-get -y autoremove
 sudo apt-get -y autoclean
