@@ -10,11 +10,11 @@ sudo apt-get -y autoclean
 sudo snap refresh
 sudo do-release-upgrade
 #sudo do-release-upgrade -d 
-rustup self update
-rustup update
+#rustup self update
+#rustup update
 sudo dmidecode -s bios-version
-sudo fwupdmgr refresh
-sudo fwupdmgr get-updates
-sudo fwupdmgr update
-tldr --update
-tail -n 10  /var/log/ufw.log
+#sudo fwupdmgr refresh
+#sudo fwupdmgr get-updates
+#sudo fwupdmgr update
+#tldr --update
+#tail -n 10  /var/log/ufw.log
