@@ -51,6 +51,6 @@ scanimage -A
 '
 
 
-scanimage -d "brother4:bus1;dev10" --format=pdf --resolution=600 > /srv/SLOHSTRM/scanned_"$(date +"%Y_%m_%d_%H_%M_%S")".pdf
+scanimage -d "brother4:bus1;dev8" --format=pdf --resolution=600 > /srv/SLOHSTRM/scanned_"$(date +"%Y_%m_%d_%H_%M_%S")".pdf
 
 
